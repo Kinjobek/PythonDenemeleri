@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="abcb86af-a89b-405e-81b2-e010e1985baa" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Problemler/Problem_1.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Problemler/Problem_2.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Problemler/Problem_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problemler/Problem_3.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Problemler/Problem_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problemler/Problem_2.py" afterDir="false" />
+>>>>>>> developer
     </list>
+=======
+    <list default="true" id="abcb86af-a89b-405e-81b2-e010e1985baa" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +22,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Problemler/Problem_3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problemler/Problem_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problemler/Problem_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+<<<<<<< Updated upstream
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+>>>>>>> developer
+=======
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problemler/Problem_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -34,17 +72,30 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="developer_1" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sdfsdf.py" />
         <option value="$PROJECT_DIR$/Problemler/Problem_1.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Problemler/Problem_2.py" />
         <option value="$PROJECT_DIR$/Problemler/Problem_4.py" />
         <option value="$PROJECT_DIR$/Problemler/Problem_5.py" />
         <option value="$PROJECT_DIR$/Problemler/Problem_6.py" />
         <option value="$PROJECT_DIR$/Problemler/Problem_3.py" />
+=======
+        <option value="$PROJECT_DIR$/Problemler/Problem_3.py" />
+        <option value="$PROJECT_DIR$/Problemler/Problem_4.py" />
+        <option value="$PROJECT_DIR$/Problemler/Problem_5.py" />
+        <option value="$PROJECT_DIR$/Problemler/Problem_6.py" />
+        <option value="$PROJECT_DIR$/Problemler/Problem_2.py" />
+>>>>>>> developer
       </list>
     </option>
   </component>
@@ -97,8 +148,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.Problem_3">
     <configuration name="Problem_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.Problem_1">
+    <configuration name="Problem_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> developer
       <module name="PythonDenemeleri" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +166,32 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemler/Problem_3.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemler/Problem_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Problem_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonDenemeleri" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problemler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problemler/Problem_2.py" />
+>>>>>>> developer
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,6 +225,10 @@
       <list>
         <item itemvalue="Python.Problem_3" />
         <item itemvalue="Python.sdfsdf" />
+        <item itemvalue="Python.Problem_1" />
+        <item itemvalue="Python.Problem_2" />
+        <item itemvalue="Python.sdfsdf" />
+        <item itemvalue="Python.Problem_1" />
       </list>
     </recent_temporary>
   </component>
@@ -164,12 +249,12 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,11 +295,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problemler/Problem_1.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="42">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Problemler/Problem_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -223,9 +310,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problemler/Problem_3.py">
+=======
+    <entry file="file://$PROJECT_DIR$/Problemler/Problem_1.py">
+>>>>>>> developer
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+=======
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemler/Problem_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problemler/Problem_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
