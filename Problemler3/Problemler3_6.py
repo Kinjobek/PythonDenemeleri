@@ -7,3 +7,10 @@ Bu problemde deneme yanılma yoluyla list comprehension'ın koşullu durumlarla 
 
 İpucu: Basit düşünmeye çalışın.
 """
+print("*******************************\n"
+      "100'e kadar olan çift sayılar\n"
+      "******************************")
+sayilar = range(1,101)
+ciftSayilar = [x for x in sayilar if x % 2 == 0]
+print(ciftSayilar)
+#Problem çözüldü
