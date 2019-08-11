@@ -44,7 +44,7 @@ class Kumanda():
             if (self.sesSeviyesi <= 10 and self.sesSeviyesi >= 0):
                 self.sesSeviyesi -= 1
     def sesSeviyesiGoster(self):
-        print(self.sesSeviyesi)
+        return self.sesSeviyesi
     def kanalEkle(self):
         kanalNumarasi = input("Kanal için numara giriniz:")
         kanalAdi = input("Kanal adı giriniz:")
@@ -53,14 +53,13 @@ class Kumanda():
         for i in self.kanallar:
             print("Kanal numarası - adı : {} -> ".format(i),self.kanallar[i])
     def kanalaGit(self):
-        global kanalNumarasi
-        kanalNumarasi = input("Kanal Numarası Giriniz:")
-        if(int(kanalNumarasi) < len(self.kanallar.keys())+1 and int(kanalNumarasi) >= 0):
-            print("Açılan kanal : ", self.kanallar[kanalNumarasi])
+        self.kanalNumarasi = input("Kanal Numarası Giriniz:")
+        if(int(self.kanalNumarasi) < len(self.kanallar.keys())+1 and int(self.kanalNumarasi) >= 0):
+            print("Açılan kanal : ", self.kanallar[self.kanalNumarasi])
         else:
             print("Böyle bir kanal bulunmamakta.")
-    def __str__(self):
-         return "TV Durumu : "+self.tvDurumu()+"\nSes Seviyesi : "+str(self.sesSeviyesi)+"\nKanal : "+self.kanallar[kanalNumarasi]
+    def genelBilgi(self):
+        print("TV Durumu : "+self.tvDurumu()+"\nSes Seviyesi : "+str(self.sesSeviyesiGoster())+"\nKanal : "+self.kanallar[self.kanalNumarasi])
 def baslat():
     tv = Kumanda()
     while True:
@@ -72,7 +71,6 @@ def baslat():
             tv.tvAcKapat()
         elif sayi == "3":
             tv.sesSeviyesiAyarla()
-            tv.sesSeviyesiGoster()
         elif sayi == "4":
             tv.kanallariGoster()
         elif sayi == "5":
@@ -82,7 +80,8 @@ def baslat():
         elif sayi == "q":
             break
         elif sayi == "b":
-            print(Kumanda())
+            tv.genelBilgi()
         print("********************************")
 baslat()
+#Problem Çözüldü.
 
