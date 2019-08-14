@@ -6,10 +6,12 @@ Bu sınıfı yazarken öğrendiğimiz özel metodların hepsini tanımlamaya ça
 import time
 class Bilgisayar():
     konum = None
+    konum2 = None
     dosyalar = {}
     durum = None
     def __init__(self):
         self.konum = "Masaüstü"
+        self.konum2 = "1"
         self.dosyalar ={"Masaüstü":{"1":"Bilgisayarım","2":"Çöp Kutusu","3":"Belgeler","4":"Google Chrome"},
                         "Bilgisayarım":{"1":"Yerel Disk C","2":"Yerel Disk D","3":"Belgeler",},
                         "Belgeler":{"1":"Resimler","2":"Müzikler","3":"Videolar","4":"İndirmeler"}}
@@ -23,10 +25,8 @@ class Bilgisayar():
                   "2) Bilgisayarım göster\n"
                   "3) Belgeler göster\n"
                   "4) Konumu göster\n"
-                  "5) \n"
-                  "6) \n"
-                  "7) \n"
-                  "q) ")
+                  "5) Konuma git\n"
+                  "q) Bilgisayarı kapat")
     def bilgisayarAcKapat(self):
         if self.durum == "Kapalı":
             i=0
@@ -42,7 +42,7 @@ class Bilgisayar():
             while i <= 15:
                 print(".", end="")
                 i += 1
-                time.sleep(0.30)
+                time.sleep(0.10)
             self.durum = "Kapalı"
             print("")
     print("******************************")
@@ -67,9 +67,24 @@ class Bilgisayar():
         time.sleep(0.5)
         print("Konum : ",self.konum)
         time.sleep(0.5)
-        print("Konumda bulunanlar : ",*self.dosyalar[self.konum].items())
+        print("Konumda açılan : ",self.dosyalar[self.konum][self.konum2])
         time.sleep(0.5)
         print("******************************")
+    def konumaGit(self):
+        while True:
+            self.konum = input("Konum giriniz:")
+            if self.konum == "Masaüstü" or "Bilgisayarım" or "Belgeler":
+                for i in self.dosyalar[self.konum]:
+                    print(i, ")", self.dosyalar[self.konum][str(i)])
+                    time.sleep(0.5)
+                print("******************************")
+                self.konum2 = input("Hangi dosyayı açacaksınız:(1-2-3 vb.)")
+                time.sleep(0.5)
+                print("Açılan dosya : ",self.dosyalar[self.konum][self.konum2])
+                print("******************************")
+                break
+            else:
+                print("Hatalı bir konum girdiniz.")
     def __str__(self):
         return self.konum
 
@@ -91,6 +106,8 @@ def baslatPC():
                     pc.belgelerDosyalarıGoster()
                 elif secenek == "4":
                     pc.konumuGoster()
+                elif secenek == "5":
+                    pc.konumaGit()
                 elif secenek == "q":
                     pc.bilgisayarAcKapat()
                     break
@@ -99,3 +116,4 @@ def baslatPC():
         elif secenek == "q":
             break
 baslatPC()
+#Problem çözüldü.
