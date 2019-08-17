@@ -1,0 +1,33 @@
+Adem Ljajic,Beşiktaş
+Altay Bayındır,Fenerbahçe
+Babel,Galatasaray
+Belhanda,Galatasaray
+Burak Yılmaz,Beşiktaş
+Domagoj Vida,Beşiktaş
+Dorukhan,Beşiktaş
+Douglas,Beşiktaş
+Emre Belözoğlu,Fenerbahçe
+Ferdi Kadıoğlu,Fenerbahçe
+Garry Rodrigues,Fenerbahçe
+Jeremain Lens,Beşiktaş
+Jimmy Durmaz,Galatasaray
+Karius,Beşiktaş
+Luyindama,Galatasaray
+Mariano,Galatasaray
+Mauricio Isla,Fenerbahçe
+Max Kruse,Fenerbahçe
+Muslera,Galatasaray
+Nabil Dirar,Fenerbahçe
+Nagatomo,Galatasaray
+Ozan Tufan,Fenerbahçe
+Ozornwafor,Galatasaray
+Pedro Rebocho,Beşiktaş
+Quaresma,Beşiktaş
+Radamel Falcao,,Galatasaray
+Ryan Donk,Galatasaray
+Sadık Çiftpınar,Fenerbahçe
+Steven Nzonzi,Galatasaray
+Tyler Boyd,Beşiktaş
+Vedat Muriqi,Fenerbahçe
+Victor Ruiz,Beşiktaş
+Zanka,Fenerbahçe
