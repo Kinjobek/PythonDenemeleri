@@ -19,5 +19,5 @@ def ucgenMi(uzunluk):
     else :
         return False
 print(list(filter(ucgenMi,kenarUzunluklari)))
-    
+
 #Problem çözüldü.
