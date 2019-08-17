@@ -11,3 +11,13 @@ Elinizden her bir elemanı 3'lü bir demet olan bir liste olsun.
 
 
 """
+
+kenarUzunluklari = [(3,4,5),(6,8,10),(3,10,7)]
+def ucgenMi(uzunluk):
+    if uzunluk[0] + uzunluk[1] > uzunluk[2] and uzunluk[0] + uzunluk[2] > uzunluk[1] and uzunluk[1] +uzunluk[2] > uzunluk[0]:
+        return True
+    else :
+        return False
+print(list(filter(ucgenMi,kenarUzunluklari)))
+    
+#Problem çözüldü.
