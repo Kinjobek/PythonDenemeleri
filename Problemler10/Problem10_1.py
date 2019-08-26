@@ -56,13 +56,14 @@ class Dosya():
     def harfHistagrami(self):
         harfFrekansi = dict()
         harfListesi = ["a","b","c","ç","d","e","f","g","ğ","h","ı","i","j","k","l","m","n","o","ö","p","r","s","ş","t","u","ü","v","y","z"]
+        for h in harfListesi:
+            if h in harfFrekansi:
+                pass
+            else:
+                harfFrekansi[h] = 0
         for kelime in self.yalinKelimeler:
-            for i in harfListesi:
-                if i in harfFrekansi:
-                    if kelime.find(i):
-                        harfFrekansi[i] += kelime.count(i)
-                else:
-                    harfFrekansi[i] = 0
+            for harf in harfListesi:
+                harfFrekansi[harf] += kelime.count(harf)
         for i, j in harfFrekansi.items():
             print("{} kelimesi metinde {} defa geçiyor.".format(i, j))
 
@@ -72,3 +73,4 @@ dosya.kelimeleriNumaraliYazdir()
 dosya.kelime_bul("da")
 dosya.kelimeHistagrami()
 dosya.harfHistagrami()
+#Problem çözüldü.
