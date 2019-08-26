@@ -1,0 +1,1 @@
+"""1'den 1000'e kadar olan sayılardan asal sayıları üreten generator bir fonksiyon yazın."""
