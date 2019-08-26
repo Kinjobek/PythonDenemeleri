@@ -1,1 +1,0 @@
-"""Metin okuma, frekans ve konum bulma uygulamasını kendin yap."""
